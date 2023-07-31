@@ -1,0 +1,13 @@
+<!-- Interpolation Binding -->
+<!-- Pipes -->
+<h2>{{hero.name | uppercase}} Details</h2>
+<!-- span = conteiner genérico inline -->
+<div><span>id: </span> {{hero.id}}</div>
+<div><span>name: </span> {{hero.name}}</div>
+
+<!-- two way data binding (ligação de dados bidirecional) -->
+<!-- Necessita importar módulo "FormsModule" -->
+<div>
+  <label for="name">Hero name:</label>
+  <input id="name" [(ngModel)]="hero.name" placeholder="name" type="text"/>
+</div>
