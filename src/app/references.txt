@@ -1,0 +1,6 @@
+Verificação de sintaxe:
+  https://github.com/angular-eslint/angular-eslint
+    ng add @angular-eslint/schematics
+
+Análise de qualidade do código a cada commit:
+  https://deepscan.io/
