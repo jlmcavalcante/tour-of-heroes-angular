@@ -1,3 +1,6 @@
+Documentação do angular
+  https://angular.io/docs
+
 Verificação de sintaxe:
   https://github.com/angular-eslint/angular-eslint
     ng add @angular-eslint/schematics
