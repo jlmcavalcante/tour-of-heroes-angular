@@ -4,3 +4,4 @@ Verificação de sintaxe:
 
 Análise de qualidade do código a cada commit:
   https://deepscan.io/
+    Adicionar ao README
