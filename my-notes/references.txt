@@ -43,3 +43,6 @@ Ciclo de Vida do Angular (ngOnInit):
 Outras ferramentas de design para desenvolver em Angular:
   - https://angular.io/resources?category=development
 
+Observables no Angular
+  - https://angular.io/guide/observables
+

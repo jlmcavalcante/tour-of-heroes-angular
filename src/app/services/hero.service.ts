@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HEROES } from '../mocks/mock-heroes';
 import { Hero } from '../Interfaces/hero.model';
+import { Observable, of } from 'rxjs';
 
 // Services utilizam o conceito de Injeção de dependência
 @Injectable({
@@ -8,7 +9,9 @@ import { Hero } from '../Interfaces/hero.model';
 })
 export class HeroService {
 
-  getHeroes(): Hero[] {
-    return HEROES;
+  getHeroes(): Observable<Hero[]> {
+    const heroes = of(HEROES);
+
+    return heroes;
   }
 }
