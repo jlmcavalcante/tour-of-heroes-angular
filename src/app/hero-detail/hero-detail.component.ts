@@ -1,5 +1,5 @@
 import { Component, Input } from "@angular/core";
-import { Hero } from "../hero.model";
+import { Hero } from "../Interfaces/hero.model";
 
 // 02 - Decorator - Informa ao angular que esta classe tem a função de componente.
 @Component({
