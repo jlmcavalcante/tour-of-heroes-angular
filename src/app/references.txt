@@ -23,3 +23,5 @@ Flex Layout - Diretivas para usar FlexBox:
   destes itens são desconhecidas e/ou dinâmicas (daí o termo "flex").
   - https://github.com/angular/flex-layout
 
+Site do Material Design com dicas de Design:
+  - https://m3.material.io/
