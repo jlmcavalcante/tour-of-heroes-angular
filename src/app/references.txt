@@ -1,10 +1,25 @@
 Documentação do angular
-  https://angular.io/docs
+  - https://angular.io/docs
 
 Verificação de sintaxe:
-  https://github.com/angular-eslint/angular-eslint
-    ng add @angular-eslint/schematics
+  - https://github.com/angular-eslint/angular-eslint
+    - ng add @angular-eslint/schematics
 
 Análise de qualidade do código a cada commit:
-  https://deepscan.io/
-    Adicionar ao README
+  - https://deepscan.io/
+    - Adicionar ao README
+
+Implementação do Front-end (Deploy):
+  - https://vercel.com/dashboard
+
+Angular Material - Conjunto de components estilizados para adicionar aos projetos:
+  - https://material.angular.io/
+  - Schematics: Código que gera código (pelo CLI)
+  - https://www.youtube.com/watch?v=BLmphpppdrk&ab_channel=PauloEduardoMelo
+
+Flex Layout - Diretivas para usar FlexBox:
+  - FlexBox: O Flexbox tem como meta ser um modo mais eficiente para criar layouts,
+  alinhar e distribuir espaços entre itens em um container, mesmo quando as dimensões
+  destes itens são desconhecidas e/ou dinâmicas (daí o termo "flex").
+  - https://github.com/angular/flex-layout
+

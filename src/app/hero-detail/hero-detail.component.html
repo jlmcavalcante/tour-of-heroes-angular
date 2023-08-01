@@ -1,0 +1,22 @@
+<!-- ngIf: Conditionally creates or disposes of subviews from the template. -->
+<div *ngIf="hero">
+
+  <!-- Interpolation Binding {{}} -->
+  <!-- | Pipes -->
+  <h2>{{hero.name | uppercase}} Details</h2>
+
+
+  <!-- Span is a generic inline container for phrasing content (inline-level element) -->
+  <div><span>id: </span> {{hero.id}}</div>
+  <div><span>name: </span> {{hero.name}}</div>
+
+
+  <!-- two way data binding (ligação de dados bidirecional) - [(ngModel)] -->
+  <!-- Necessita importar módulo "FormsModule" -->
+  <div>
+    <!-- The for(="element_id") attribute specifies which form element a label is bound to -->
+    <label for="name">Hero name:</label>
+    <input id="name" [(ngModel)]="hero.name" placeholder="name" type="text"/>
+  </div>
+
+</div>

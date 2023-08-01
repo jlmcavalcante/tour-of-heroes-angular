@@ -1,0 +1,16 @@
+<!-- DIRETIVAS: classes que adicionam comportamento aos elementos-->
+<h2>My Heroes</h2>
+
+<ul class="heroes">
+  <!-- ngFor: Repita um nó para cada item em uma lista -->
+  <li
+  *ngFor="let hero of heroes"
+  [class.selected]="hero === selectedHero"
+  (click)="onSelect(hero)"
+  >
+    <span>{{hero.id}}</span> {{hero.name}}
+  </li>
+</ul>
+
+<!-- Sharing data between parent (heroes) and child (hero-detail) components -->
+<app-hero-detail [hero]="selectedHero"></app-hero-detail>

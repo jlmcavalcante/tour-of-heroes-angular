@@ -1,0 +1,9 @@
+npm install -g @angular/cli
+
+ng new <name>
+
+ng generate component <nome>
+
+ng serve
+
+ng add @angular/material

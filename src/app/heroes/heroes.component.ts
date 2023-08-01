@@ -8,13 +8,10 @@ import { HEROES } from 'src/app/mock-heroes';
   styleUrls: ['./heroes.component.scss']
 })
 export class HeroesComponent {
-  hero: Hero = {
-    id: 1,
-    name: 'Wolverine'
-  };
-
+  // Atribui um Array de objetos (Importação)
   heroes = HEROES;
-  selectedHero?: Hero;
+
+  selectedHero: Hero = {id: 0, name: ''};  // Alternativa => selectedHero?: Hero;
 
   onSelect(hero: Hero): void {
     this.selectedHero = hero;
