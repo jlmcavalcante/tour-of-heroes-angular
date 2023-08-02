@@ -9,3 +9,6 @@ ng serve
 ng add @angular/material
 
 npm i -s @angular/flex-layout @angular/cdk
+
+Gerar componentes com Angular Schematics: Botão direito na pasta
+
