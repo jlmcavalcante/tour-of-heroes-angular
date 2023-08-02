@@ -44,5 +44,11 @@ Outras ferramentas de UI para Angular:
   - https://angular.io/resources?category=development
 
 Observables no Angular
+  - https://chat.openai.com/share/ec739d14-0351-486d-abf0-8a26355c92cc
   - https://angular.io/guide/observables
+  - https://rxjs.dev/guide/observable
+  - https://www.w3schools.com/js/js_arrow_function.asp
+
+Programação Síncrona x Assíncrona:
+  - https://community.revelo.com.br/programacao-sincrona-vs-assincrona/#:~:text=Uma%20breve%20explica%C3%A7%C3%A3o%2C%20o%20c%C3%B3digo,e%20executadas%20simultaneamente%20ou%20aleatoriamente.
 

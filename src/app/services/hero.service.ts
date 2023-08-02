@@ -10,7 +10,7 @@ import { Observable, of } from 'rxjs';
 export class HeroService {
 
   getHeroes(): Observable<Hero[]> {
-    const heroes = of(HEROES);
+    const heroes = of(HEROES);  // Criando um observable
 
     return heroes;
   }

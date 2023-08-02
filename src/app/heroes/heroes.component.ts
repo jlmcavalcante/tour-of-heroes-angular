@@ -22,7 +22,9 @@ export class HeroesComponent implements OnInit {
 
   setHeroes(): void {
     // Consumindo Dados do Service
-    this.heroService.getHeroes().subscribe((heroesFromService) => this.heroes = heroesFromService);
+    this.heroService.getHeroes().subscribe(
+      (h) => this.heroes = h,  // Next* -> Erro -> Complete
+    );
   }
 
   onSelect(hero: Hero): void {
