@@ -1,8 +1,12 @@
-<!-- DIRETIVAS: classes que adicionam comportamento aos elementos-->
-<h2>My Heroes</h2>
+<!-- eslint-disable @angular-eslint/template/interactive-supports-focus -->
 
+<h2>My Heroes</h2>
 <ul class="heroes">
-  <!-- ngFor: Repita um nó para cada item em uma lista -->
+  <!-- DIRETIVAS: classes que adicionam comportamento aos elementos-->
+    <!-- ngFor: Repita um nó para cada item em uma lista -->
+    <!-- [class.nomeClasseCSS]="condição" -->
+      <!-- Possibilidade de alterar a aparência do elemento com base em
+      estados ou propriedades específicas do componente -->
   <li
   *ngFor="let hero of heroes"
   [class.selected]="hero === selectedHero"

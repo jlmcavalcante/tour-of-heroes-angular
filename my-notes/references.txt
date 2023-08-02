@@ -1,15 +1,15 @@
 Documentação do angular
   - https://angular.io/docs
 
-Verificação de sintaxe:
+Ferramenta de análise de código estática (ESLint):
   - https://github.com/angular-eslint/angular-eslint
-    - ng add @angular-eslint/schematics
+  - ng add @angular-eslint/schematics
 
-Análise de qualidade do código a cada commit:
+Ferramenta de análise de qualidade do código - a cada commit:
   - https://deepscan.io/
     - Adicionar ao README
 
-Implementação do Front-end (Deploy):
+Site para implementação do Front-end (Deploy):
   - https://vercel.com/dashboard
 
 Angular Material - Conjunto de components estilizados para adicionar aos projetos:
@@ -23,16 +23,16 @@ Flex Layout - Diretivas para usar FlexBox:
   destes itens são desconhecidas e/ou dinâmicas (daí o termo "flex").
   - https://github.com/angular/flex-layout
 
-Site do Material Design com dicas de Design:
+Site do Material Design -> dicas de Design:
   - https://m3.material.io/
 
-Services no Angular:
+Conceito de Services no Angular:
   - https://dumildematos.medium.com/o-que-%C3%A9-um-servi%C3%A7o-no-angular-e-por-que-us%C3%A1-lo-2c8b441618cf#:~:text=Um%20servi%C3%A7o%20Angular%20%C3%A9%20um,diferentes%20que%20podem%20ser%20reutilizadas.
 
-Injeção de dependência:
+Conceito de Injeção de dependência:
   - https://medium.com/@eduardolanfredi/inje%C3%A7%C3%A3o-de-depend%C3%AAncia-ff0372a1672
 
-Mocks
+Conceito de Mocks
   - Imitações ou unidades falsas que simulam o comportamento de unidades reais.
   - Utilizados em testes.
 
@@ -40,7 +40,7 @@ Ciclo de Vida do Angular (ngOnInit):
   - https://medium.com/xp-inc/angular-ngoninit-e-constructor-be52ad5ba599
   - https://www.youtube.com/watch?v=4Z543sAKmBA&ab_channel=LoianeGroner
 
-Outras ferramentas de design para desenvolver em Angular:
+Outras ferramentas de UI para Angular:
   - https://angular.io/resources?category=development
 
 Observables no Angular
