@@ -12,3 +12,6 @@ npm i -s @angular/flex-layout @angular/cdk
 
 Gerar componentes com Angular Schematics: Botão direito na pasta
 
+ng g module app-routing --flat --module=app
+  --module=app (Já regista no módulo app)
+  --flat (não cria dentro de uma pasta)
