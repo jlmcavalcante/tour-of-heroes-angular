@@ -2,9 +2,32 @@
 <!-- Importar a API do elemento no app.module.ts -->
 <mat-toolbar color="primary">
   <span>{{ title }}</span>
+
+  <!-- Substituindo uso de classes CSS por Flex-layout -->
+  <span fxFlex></span>
+
+  <!-- Atributo aria-label define um valor de string que rotula
+  um elemento interativo quando não há uma descrição precisa do seu conteúdo
+  -->
+  <!-- routerLink: Nova diretiva disponibilizada pelo RouterModule -->
+  <button
+    aria-label="Heroes list"
+    routerLink="/heroes"
+    [ngStyle]="{'outline': 'none'}"
+  >
+    <!-- Utilizar nome do ícone, retirado do site da google -->
+    <mat-icon
+    color="primary"
+
+    >
+    sports_martial_arts
+    </mat-icon>
+  </button>
+
 </mat-toolbar>
 
 <div class="content">
-  <app-heroes></app-heroes>
+  <!-- Elemento de RouterModule -->
+  <router-outlet></router-outlet>
   <app-messages></app-messages>
 </div>

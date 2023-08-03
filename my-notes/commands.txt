@@ -10,9 +10,10 @@ ng add @angular/material
 
 npm i -s @angular/flex-layout @angular/cdk
 
-Gerar componentes com Angular Schematics: Botão direito na pasta
+Gerar componentes através do Angular Schematics: Botão direito na pasta
 
 Criar módulo de rotas: ng g module app-routing --flat --module=app
-  --module=app (Já regista no módulo app)
-  --flat (não cria dentro de uma pasta)
+  --flat: Evita criar nova pasta para armazenar o novo módulo, mantendo-o na principal.
+  --module=app: Informa para que o modulo seja registrado dentro do módulo app.
 
+Deleta linha de código no vscode: ctrl +shift + k

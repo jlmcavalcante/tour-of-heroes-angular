@@ -7,16 +7,17 @@ import { HeroesComponent } from './heroes/heroes.component';
 
 
 const routes: Routes = [
-  // URL + Página que será exibida
+  // Caminho + Página que será exibida
   {path: 'heroes', component: HeroesComponent},
 
 ]
 
+// Informar que essa clase se comporta como um módulo
 @NgModule({
-  // Iniciar minha aplicação disponibilizando o routes
+  // Iniciar minha aplicação disponibilizando as rotas criadas
   imports: [RouterModule.forRoot(routes)],
 
-  // Todo módulo importado (no app.module) precisa entregar (exportar) algo*
+  // Fornecer o RouterModule ao módulo principal - que está importando este módulo de Rotas -.
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
