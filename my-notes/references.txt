@@ -32,10 +32,6 @@ Conceito de Services no Angular:
 Conceito de Injeção de dependência:
   - https://medium.com/@eduardolanfredi/inje%C3%A7%C3%A3o-de-depend%C3%AAncia-ff0372a1672
 
-Conceito de Mocks
-  - Imitações ou unidades falsas que simulam o comportamento de unidades reais.
-  - Utilizados em testes.
-
 Ciclo de Vida do Angular (ngOnInit):
   - https://medium.com/xp-inc/angular-ngoninit-e-constructor-be52ad5ba599
   - https://www.youtube.com/watch?v=4Z543sAKmBA&ab_channel=LoianeGroner

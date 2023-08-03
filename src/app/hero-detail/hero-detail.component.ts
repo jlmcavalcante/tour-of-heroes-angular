@@ -12,8 +12,9 @@ import { Hero } from "../Interfaces/hero.model";
 })
 // 01 - Classe que armazena a lógica do componente.
 export class HeroDetailComponent{
-  @Input()  // Permite que o componente pai atualize dados do componente filho.
-  hero?: Hero;
+  // Permite que o componente filho receba dados do componente pai (heroes)
+  @Input() hero?: Hero;
+
 }
 
 // *Todo component precisa estar registrado em algum módulo (app.module.ts - nesse caso).

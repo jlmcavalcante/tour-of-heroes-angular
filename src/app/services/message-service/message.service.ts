@@ -1,12 +1,11 @@
 import { Injectable } from '@angular/core';
 
-// Este serviço foi utilizado
-
 @Injectable({
-  // Disponibilizado no início da aplicação
+  // Service fornecido no início da aplicação (root)
   providedIn: 'root'
 })
 export class MessageService {
+  // Private: Promover abstração e proteção dos dados através do encapsulamento
   private messages: string[] = [];
 
   add(message: string): void {
@@ -17,6 +16,7 @@ export class MessageService {
     this.messages = [];
   }
 
+  // Método para obter - sem comprometer - os dados.
   getMessages(): string[] {
     return this.messages;
   }

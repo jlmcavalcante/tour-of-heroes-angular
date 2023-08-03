@@ -10,11 +10,14 @@ import { MessageService } from '../message-service/message.service';
 })
 export class HeroService {
 
-  // Injetando um servise dentro de um service
+  // Injeção de dependências entre serviços
   constructor(private messageService: MessageService) {}
 
   getHeroes(): Observable<Hero[]> {
-    const heroes = of(HEROES);  // Criando um observable
+    // Criando um observable utilizando o "of"
+    const heroes = of(HEROES);
+
+    // Mensagem que será exibida no template quando o método for ativado
     this.messageService.add('HeroService: fetched heroes');
 
     return heroes;

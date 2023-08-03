@@ -8,6 +8,7 @@ import { MessageService } from '../services/message-service/message.service';
 })
 export class MessagesComponent {
 
+  // Injeção de dependência
   constructor(public messageService: MessageService){}
 
 

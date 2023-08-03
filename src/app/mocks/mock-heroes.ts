@@ -1,4 +1,12 @@
+/*
+Conceito de Mocks:
+  - Unidades falsas que simulam o comportamento de unidades reais.
+  - Utilizados em testes.
+*/
+
 import { Hero } from "../Interfaces/hero.model";
+
+
 
 export const HEROES: Hero[] = [
   {id: 1, name: 'Wolverine'},
