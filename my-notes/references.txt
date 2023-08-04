@@ -30,6 +30,7 @@ Material Icons
 Flex Layout:
   - Conceito: fornece uma API que automatiza o processo de aplicação do Flexbox CSS através de diretivas.
   - https://github.com/angular/flex-layout
+      - Pesquisar funcionalidades e exemplos na aba "wiki"
   - https://tburleson-layouts-demos.firebaseapp.com/#/docs
 _______________________________________________________________________
 

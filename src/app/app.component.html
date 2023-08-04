@@ -21,18 +21,29 @@
                  - Permite a inserção de link para navegação
   -->
   <button mat-icon-button
+    aria-label="Dashboard"
+    routerLink="/dashboard"
+    matTooltip="Dashboard"
+  >
+    <!-- Utilizar nome do ícone, retirado do site da google -->
+    <mat-icon aria-hidden="false" fontIcon="dashboard"></mat-icon>
+  </button>
+
+  <button mat-icon-button
     aria-label="Heroes list"
     routerLink="/heroes"
     matTooltip="Heroes List"
   >
-    <!-- Utilizar nome do ícone, retirado do site da google -->
+
     <mat-icon aria-hidden="false" fontIcon="sports_martial_arts"></mat-icon>
   </button>
 
 </mat-toolbar>
 
-<div class="content">
+<div class="content" fxLayoutGap="12px">
   <!-- Elemento de RouterModule -->
   <router-outlet></router-outlet>
+
   <app-messages></app-messages>
+
 </div>

@@ -1,0 +1,16 @@
+<h2>Dashboard</h2>
+
+<!-- fxLayout: row | column -->
+<!-- fxLayoutGap: determina espaço entre os elementos -->
+<!-- fxLayoutAlign: Espaçamento automático e responsivo entre os elementos do layout -->
+<!-- fxLayout.xs: Extra-Small -> Quando for visualizado em celular ou telas pequenas -->
+<div
+  fxLayout="row"
+  fxLayout.xs="column"
+  fxLayoutGap="12px"
+  fxLayoutAlign="space-between"
+>
+  <mat-card *ngFor="let hero of heroes">
+    <mat-card-content>{{hero.name}}</mat-card-content>
+  </mat-card>
+</div>

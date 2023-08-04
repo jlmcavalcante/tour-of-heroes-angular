@@ -17,3 +17,7 @@ Criar módulo de rotas: ng g module app-routing --flat --module=app
   --module=app: Informa para que o modulo seja registrado dentro do módulo app.
 
 Deleta linha de código no vscode: ctrl +shift + k
+
+ng generate component dashboard --skip-tests
+  - Cria componente sem arquivo de testes
+
