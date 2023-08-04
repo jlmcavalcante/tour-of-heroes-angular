@@ -11,6 +11,7 @@ Ferramenta de análise de qualidade do código - a cada commit:
 
 Site para implementação do Front-end (Deploy):
   - https://vercel.com/dashboard
+_______________________________________________________________________
 
 Angular Material - Conjunto de components estilizados para adicionar aos projetos:
   - https://material.angular.io/
@@ -19,6 +20,18 @@ Angular Material - Conjunto de components estilizados para adicionar aos projeto
 
 Site do Material Design -> dicas de Design:
   - https://m3.material.io/
+
+Outras ferramentas de UI para Angular:
+  - https://angular.io/resources?category=development
+
+Material Icons
+  -https://fonts.google.com/icons
+
+Flex Layout:
+  - Conceito: fornece uma API que automatiza o processo de aplicação do Flexbox CSS através de diretivas.
+  - https://github.com/angular/flex-layout
+  - https://tburleson-layouts-demos.firebaseapp.com/#/docs
+_______________________________________________________________________
 
 Conceito de Services no Angular:
   - https://dumildematos.medium.com/o-que-%C3%A9-um-servi%C3%A7o-no-angular-e-por-que-us%C3%A1-lo-2c8b441618cf#:~:text=Um%20servi%C3%A7o%20Angular%20%C3%A9%20um,diferentes%20que%20podem%20ser%20reutilizadas.
@@ -29,9 +42,6 @@ Conceito de Injeção de dependência:
 Ciclo de Vida do Angular (ngOnInit):
   - https://medium.com/xp-inc/angular-ngoninit-e-constructor-be52ad5ba599
   - https://www.youtube.com/watch?v=4Z543sAKmBA&ab_channel=LoianeGroner
-
-Outras ferramentas de UI para Angular:
-  - https://angular.io/resources?category=development
 
 Observables no Angular
   - https://www.youtube.com/watch?v=V4iMyVnQPqM&ab_channel=procademy
@@ -46,12 +56,4 @@ Programação Síncrona x Assíncrona:
 Guia de uso para Flexbox CSS:
   -FlexBox: Modo mais eficiente para criar layouts, alinhar e distribuir espaços entre itens em um container.
   -https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-
-Flex Layout:
-  - Conceito: fornece uma API que automatiza o processo de aplicação do Flexbox CSS através de diretivas.
-  - https://github.com/angular/flex-layout
-  - https://tburleson-layouts-demos.firebaseapp.com/#/docs
-
-Material Icons
-  -https://fonts.google.com/icons
 
