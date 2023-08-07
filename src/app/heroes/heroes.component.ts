@@ -10,8 +10,9 @@ import { MessageService } from '../services/message-service/message.service';
 })
 export class HeroesComponent implements OnInit {
   heroes: Hero[] = [];
-
   selectedHero?: Hero;
+  displayedColumns: string[] = ['id', 'name']
+
 
   // 1º fase do ciclo de vida - Injeção de dependências
   constructor(private heroService: HeroService, private messageService: MessageService) {}

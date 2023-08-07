@@ -21,6 +21,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatCardModule} from '@angular/material/card';
 import {MatTooltipModule} from '@angular/material/tooltip';
+import {MatTableModule} from '@angular/material/table';
 
 
 // Angular Flex-Layout
@@ -50,6 +51,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     MatIconModule,
     FlexLayoutModule,
     MatTooltipModule,
+    MatTableModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
