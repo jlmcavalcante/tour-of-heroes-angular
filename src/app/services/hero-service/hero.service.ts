@@ -22,4 +22,13 @@ export class HeroService {
 
     return heroes;
   }
+
+  getHero(id: number): Observable<Hero> {
+    // Realizando a busca de um elemento através do id
+    const hero = HEROES.find(hero => hero.id === id)!;
+    // Mostrar mensagem ao terminar a busca
+    this.messageService.add(`HeroService: fetched hero id=${id}`);
+    // Retorna o observable Hero
+    return of(hero);
+  }
 }

@@ -2,27 +2,20 @@
 <!-- eslint-disable @angular-eslint/template/interactive-supports-focus -->
 
 
-<h2>My Heroes</h2>
+<h1>My Heroes</h1>
 <ul class="heroes">
   <!-- DIRETIVAS: classes que adicionam comportamento aos elementos-->
     <!-- ngFor: Repita um nó para cada item em uma lista -->
     <!-- [class.nomeClasseCSS]="condição" -->
       <!-- Possibilidade de alterar a aparência do elemento com base em
       estados ou propriedades específicas do componente -->
-  <li
-  *ngFor="let hero of heroes"
-  [class.selected]="hero === selectedHero"
-  (click)="onSelect(hero)"
-  >
+  <li *ngFor="let hero of heroes" routerLink="/heroes/{{hero.id}}">
     <span>Id: {{hero.id}} - </span> {{hero.name}}
   </li>
 </ul>
 
-<!-- Sharing data between parent (heroes) and child (hero-detail) components -->
-<app-hero-detail [hero]="selectedHero"></app-hero-detail>
 
-
-
+<!-- Configurar tabela depois-->
 
 
 <table mat-table [dataSource]="heroes" class="mat-elevation-z8">
